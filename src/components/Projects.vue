@@ -3,6 +3,13 @@ import { ref } from 'vue'
 
 const projects = ref([
   {
+    title: 'VueJS Work Assignment',
+    description: 'A frontend developer assignment focused on building a Joke Collection.',
+    tags: ['VueJS', 'Vite', 'TailwindCSS'],
+    github: 'https://github.com/OdysseasKarastergiou/joke-collection-assignment',
+    demo: 'https://odysseaskarastergiou.github.io/joke-collection-assignment/',
+  },
+  {
     title: 'ReactJS Work Assignment',
     description: 'A frontend developer assignment focused on building a Staff Management System.',
     tags: ['React', 'Next.js', 'TailwindCSS', 'Redux'],
