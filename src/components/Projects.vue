@@ -3,6 +3,13 @@ import { ref } from 'vue'
 
 const projects = ref([
   {
+    title: 'NBA Stats Scraper',
+    description: 'A web application that scrapes and displays NBA player statistics with user authentication and interactive data visualization.',
+    tags: ['Flask', 'Python', 'Docker', 'Google Cloud Run', 'Web Scraping'],
+    github: 'https://github.com/OdysseasKarastergiou/nba-stats-scraper',
+    demo: 'https://flaskimg-308909543252.europe-west8.run.app/',
+  },
+  {
     title: 'VueJS Work Assignment',
     description: 'A frontend developer assignment focused on building a Joke Collection.',
     tags: ['VueJS', 'Vite', 'TailwindCSS'],
